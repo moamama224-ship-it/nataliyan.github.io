@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natelier — авторские изделия</title>
+  <meta name="description" content="Natelier — коллекция авторских изделий ручной работы Натальи.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-row">
+      <a class="brand" href="#works" aria-label="Natelier — главная">Natelier</a>
+      <span class="butterfly" aria-hidden="true">🦋</span>
+    </div>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#works">Мои работы</a>
+      <a href="#about">Обо мне</a>
+      <a href="#contact">Связаться со мной</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Авторские изделия ручной работы</p>
+        <h1>Тёплые вещи,<br>созданные с душой.</h1>
+        <p class="hero-text">Добро пожаловать в Natelier — небольшую коллекцию необычных и уютных изделий Натальи.</p>
+        <a class="button" href="#works">Смотреть работы</a>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Коллекция</p>
+        <h2>Мои работы</h2>
+      </div>
+
+      <div class="works">
+        <article class="work-card">
+          <div class="work-image">
+            <img src="images/kit.jpg" alt="Держатель для туалетной бумаги или салфеток в виде кита" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none';">
+            <span>Фото работы</span>
+          </div>
+          <div class="work-info">
+            <p class="work-number">01</p>
+            <h3>Кит</h3>
+            <p>Декоративный держатель для туалетной бумаги или салфеток. Добрый морской образ добавляет ванной комнате или интерьеру немного уюта и фантазии.</p>
+            <p class="mood">Небольшая деталь, которая напоминает о море и создаёт спокойное настроение.</p>
+            <a class="button" href="#contact">Связаться со мной</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-image">
+            <img src="images/frog.jpg" alt="Декоративный держатель для туалетной бумаги в виде лягушки" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none';">
+            <span>Фото работы</span>
+          </div>
+          <div class="work-info">
+            <p class="work-number">02</p>
+            <h3>Лягушка</h3>
+            <p>Оригинальный держатель для туалетной бумаги, который превращает обычную полезную вещь в забавную деталь интерьера.</p>
+            <p class="mood">Пусть каждое утро начинается с улыбки, хорошего настроения и маленькой лягушки, которая делает пространство добрее.</p>
+            <a class="button" href="#contact">Связаться со мной</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-image">
+            <img src="images/lamp.jpg" alt="Светильник из натурального дерева" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none';">
+            <span>Фото работы</span>
+          </div>
+          <div class="work-info">
+            <p class="work-number">03</p>
+            <h3>Светильник из натурального дерева</h3>
+            <p>Декоративный светильник с деревянными деталями. Он предназначен для создания мягкого, тёплого освещения и уютной атмосферы.</p>
+            <p class="mood">Натуральное дерево и тёплый свет помогают сделать комнату особенно домашней.</p>
+            <a class="button" href="#contact">Связаться со мной</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading">
+        <p class="eyebrow">Немного обо мне</p>
+        <h2>Обо мне</h2>
+      </div>
+      <div class="about-box">
+        <div class="about-initial">Н</div>
+        <div>
+          <h3>Меня зовут Наталья</h3>
+          <p>Мне 47 лет, и уже два года я занимаюсь рукоделием. Мне нравится создавать вещи своими руками, придумывать необычные детали и превращать простые материалы в изделия с характером.</p>
+          <p>Я стараюсь постоянно развиваться, пробовать новые идеи и создавать всё больше интересных работ. Эта коллекция будет постепенно расширяться.</p>
+          <p class="signature">Natelier — это просто тёплый список моих работ, созданных с любовью.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-heading">
+        <p class="eyebrow">Будем на связи</p>
+        <h2>Связаться со мной</h2>
+      </div>
+      <div class="contact-box">
+        <p class="contact-intro">Если вам понравилась работа или вы хотите узнать о ней подробнее, буду рада вашему сообщению.</p>
+        <div class="contacts">
+          <a class="contact-item" href="tel:+79267889043">
+            <span>Телефон</span>
+            <strong>+7 (926) 788-90-43</strong>
+          </a>
+          <a class="contact-item" href="mailto:naumchevannn@gmail.com">
+            <span>Электронная почта</span>
+            <strong>naumchevannn@gmail.com</strong>
+          </a>
+        </div>
+        <p class="hours">Звонки принимаются ежедневно с <strong>9:00 до 22:00</strong>.<br>Пожалуйста, звоните в это время.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Natelier · Авторские изделия ручной работы</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
