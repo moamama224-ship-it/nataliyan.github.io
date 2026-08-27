@@ -213,6 +213,12 @@ h2 {
 .work-info p { color: var(--muted); font-size: 15px; }
 .work-info .mood { font-style: italic; }
 .work-info .button { margin-top: 12px; }
+.work-info .price {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #9a9a9a;
+}
 
 .about { max-width: 1000px; }
 .about-box {
